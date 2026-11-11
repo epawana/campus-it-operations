@@ -23,16 +23,14 @@ This repository documents production-grade implementations, troubleshooting repo
 
 | Document | Focus Area | Key Highlights |
 | :--- | :--- | :--- |
-| [Enterprise Campus Network Infrastructure](enterprise_campus_network_infrastructure_case...) | Network Engineering | WAN configuration, multi-ISP balancing/failover, and campus-wide routing. |
-| [Multi-Tier Architecture & Reverse Proxy](multi_tier_network_architecture_reverse_proxy_...) | Systems & Web Ops | Exposing and pointing internal VMs to public domain via secure reverse proxy. |
-| [Dahua WizSense Troubleshooting Report](troubleshooting_report_dahua_wizsense_offline_...) | Surveillance Systems | Resolving camera offline incidents, bandwidth analysis, and SmartPSS Lite integration. |
-
-*(Catatan: Sesuaikan tautan kurung siku di atas dengan path file yang sebenarnya).*
+| [Enterprise Campus Network Infrastructure](https://github.com/epawana/campus-it-operations/blob/main/enterprise_campus_network_infrastructure_case_study.md) | Network Engineering | WAN configuration, multi-ISP balancing/failover, and campus-wide routing. |
+| [Multi-Tier Architecture & Reverse Proxy](https://github.com/epawana/campus-it-operations/blob/main/multi_tier_network_architecture_reverse_proxy_case_study.md) | Systems & Web Ops | Exposing and pointing internal VMs to public domain via secure reverse proxy. |
+| [Dahua WizSense Troubleshooting Report](https://github.com/epawana/campus-it-operations/blob/main/troubleshooting_report_dahua_wizsense_offline_smartpss.md) | Surveillance Systems | Resolving camera offline incidents, bandwidth analysis, and SmartPSS Lite integration. |
 
 ---
 
 ## 👨‍💻 Maintainer
 **Ega Pawana**  
 *IT Support Coordinator & Systems Administrator*  
-* LinkedIn: https://www.linkedin.com/in/ega-pawana-31908b41/
+* LinkedIn: (https://www.linkedin.com/in/ega-pawana-31908b41/)
 * GitHub: [@epawana](https://github.com/epawana)
