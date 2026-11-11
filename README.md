@@ -32,5 +32,5 @@ This repository documents production-grade implementations, troubleshooting repo
 ## 👨‍💻 Maintainer
 **Ega Pawana**  
 *IT Support Coordinator & Systems Administrator*  
-* LinkedIn: (https://www.linkedin.com/in/ega-pawana-31908b41/)
+* LinkedIn: [My Profile](https://www.linkedin.com/in/ega-pawana-31908b41/)
 * GitHub: [@epawana](https://github.com/epawana)
