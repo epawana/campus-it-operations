@@ -23,7 +23,8 @@ This repository documents production-grade implementations, troubleshooting repo
 
 | Document | Focus Area | Key Highlights |
 | :--- | :--- | :--- |
-| [Enterprise Campus Network Infrastructure](https://github.com/epawana/campus-it-operations/blob/main/docs/enterprise_campus_network_infrastructure_case_study.md) | Network Engineering | WAN configuration, multi-ISP balancing/failover, and campus-wide routing. |
+| [Enterprise Campus Network Infrastructure](https://github.com/epawana/campus-it-operations/blob/main/docs/enterprise_campus_network_infrastructure_case_study.md) |  | |
+| [Proxmox VE Implementation Guide](https://github.com/epawana/campus-it-operations/blob/main/docs/proxmox_ve_implementation_guide.md) | Network Engineering | WAN configuration, multi-ISP balancing/failover, and campus-wide routing. |
 | [Multi-Tier Architecture & Reverse Proxy](https://github.com/epawana/campus-it-operations/blob/main/docs/multi_tier_network_architecture_reverse_proxy_case_study.md) | Systems & Web Ops | Exposing and pointing internal VMs to public domain via secure reverse proxy. |
 | [Dahua WizSense Troubleshooting Report](https://github.com/epawana/campus-it-operations/blob/main/docs/troubleshooting_report_dahua_wizsense_offline_smartpss.md) | Surveillance Systems | Resolving camera offline incidents, bandwidth analysis, and SmartPSS Lite integration. |
 
