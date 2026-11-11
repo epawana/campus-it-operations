@@ -8,7 +8,7 @@ This guide outlines the deployment and configuration of **MeshCentral**, an open
 
 | Parameter | Specification | Notes |
 | :--- | :--- | :--- |
-| **Parent Host** | Proxmox VE | Reference: [`proxmox-ve-setup.md`](../infrastructure/proxmox-ve-setup.md) |
+| **Parent Host** | Proxmox VE | Reference: [`proxmox-ve-setup.md`](https://github.com/epawana/campus-it-operations/blob/main/docs/proxmox_ve_implementation_guide.md) |
 | **Instance Type** | LXC Container (Unprivileged) | Debian / Ubuntu Minimal Template |
 | **Allocated Resources** | 2 vCPU / 2048 MB RAM / 20 GB Disk | Low idle overhead |
 | **Runtime Engine** | Node.js (LTS v18/v20) & npm | Managed via systemd |
