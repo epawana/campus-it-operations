@@ -13,8 +13,9 @@ This repository documents production-grade implementations, troubleshooting repo
 ## 🛠️ Core Tech Stack & Scope
 
 * **Networking & Routing:** MikroTik RouterOS, Ubiquiti UniFi, Multi-WAN Failover, VLAN segmentation.
-* **Systems & Virtualization:** Linux (Ubuntu/Debian), Hyper-V, Proxmox VE, Reverse Proxy & SSL integration.
-* **Surveillance & IoT:** Dahua WizSense Ecosystem, SmartPSS Lite, Multi-DVR management (98+ channels).
+* **Systems & Virtualization:** Proxmox VE, Windows Server Hyper-V, Linux (Ubuntu/Debian), Reverse Proxy & SSL integration.
+* **Endpoint & Remote Operations:** MeshCentral (LXC), NetSupport School, unattended remote administration, centralized lab proctoring.
+* **Surveillance & IoT/Biometrics:** Dahua WizSense Ecosystem (98+ channels, SmartPSS Lite), Solution X100-C Biometric Hardware integration.
 * **Infrastructure Operations:** End-to-end troubleshooting, maintenance SOPs, and service uptime continuity.
 
 ---
