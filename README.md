@@ -32,6 +32,7 @@ This repository documents production-grade implementations, troubleshooting repo
 | [Multi-Tier Architecture & Reverse Proxy](https://github.com/epawana/campus-it-operations/blob/main/docs/multi_tier_network_architecture_reverse_proxy_case_study.md) | Systems & Web Ops | Exposing and pointing internal VMs to public domain via secure reverse proxy. |
 | [Dahua WizSense Troubleshooting Report](https://github.com/epawana/campus-it-operations/blob/main/docs/troubleshooting_report_dahua_wizsense_offline_smartpss.md) | Surveillance Systems | Resolving camera offline incidents, bandwidth analysis, and SmartPSS Lite integration. |
 | [Solution X100-C Biometric Attendance Integration](https://github.com/epawana/campus-it-operations/blob/main/docs/solution_x100_c_integration_guide.md) | Hardware & Systems Integration | Static TCP/IP provisioning, automated log harvesting, socket troubleshooting (port 4370), and failover USB recovery. |
+| [Containerized Unifi Network Controller On Legacy Hardware](https://github.com/epawana/campus-it-operations/blob/main/docs/case_study_containerized_unifi_network_controller_on_legacy_hardware.md) | Virtualization & Systems | Workload Decoupling & OS Isolation, Layer-2 Network Integration via Host Networking, Hardware-Aware Container Architecture, Database RBAC & State Persistence, Lifecycle & Handover Readiness |
 
 ---
 
