@@ -89,7 +89,7 @@ Instead of allowing broad CIDR ranges on internal servers, **Security Group Chai
    * **`Lab-ZeroTrust-rtb-private1`**: Contains only the local VPC route (`10.10.0.0/16 -> local`), keeping the subnet completely air-gapped from direct internet ingress/egress.
 3. Enabled *Auto-assign public IPv4 address* exclusively on the public subnet.
 
-![AWS VPC Resource Map](images/01-aws-vpc-resource-map.png)
+![AWS VPC Resource Map](../images/01-aws-vpc-resource-map.png)
 
 ---
 
@@ -97,7 +97,7 @@ Instead of allowing broad CIDR ranges on internal servers, **Security Group Chai
 1. Launched **`VPN-Bastion-Gateway`** (Ubuntu Server 24.04 LTS, `t3.micro`) inside `10.10.1.0/24`, receiving private IP `10.10.1.80` and an ephemeral public IPv4 address.
 2. Launched **`Internal-App-Server`** (Ubuntu Server 24.04 LTS, `t3.micro`) inside `10.10.2.0/24` with public IP assignment disabled, receiving only private IP `10.10.2.185`.
 
-![EC2 Instances Isolation Proof](images/02-ec2-instances-isolation.png)
+![EC2 Instances Isolation Proof](../images/02-ec2-instances-isolation.png)
 
 ---
 
@@ -121,7 +121,7 @@ ssh -A ubuntu@<BASTION_PUBLIC_IP>
 ssh ubuntu@10.10.2.185
 ```
 
-![SSH Jump Host Proof](images/04-ssh-jump-host-proof.png)
+![SSH Jump Host Proof](../images/04-ssh-jump-host-proof.png)
 
 ---
 
@@ -157,7 +157,7 @@ Once the tunnel handshake succeeded, direct SSH access to the private instance w
 ssh -i .\aws-lab-key.pem ubuntu@10.10.2.185
 ```
 
-![WireGuard Split-Tunnel Active & Direct Private SSH](images/03-vpn-tunnel-active.png)
+![WireGuard Split-Tunnel Active & Direct Private SSH](../images/03-vpn-tunnel-active.png)
 
 ---
 
