@@ -6,13 +6,14 @@ A comprehensive operational record and technical case studies managing campus-wi
 
 ## 📌 Overview
 
-This repository documents production-grade implementations, troubleshooting reports, and infrastructure architecture designs executed across campus environments. It demonstrates hands-on competencies in network administration, server virtualization, reverse proxy implementations, and enterprise CCTV infrastructure.
+This repository documents production-grade implementations, troubleshooting reports, and infrastructure architecture designs executed across campus environments and cloud labs. It demonstrates hands-on competencies in network administration, cloud security, server virtualization, reverse proxy implementations, and enterprise CCTV infrastructure.
 
 ---
 
 ## 🛠️ Core Tech Stack & Scope
 
 - **Networking & Routing:** MikroTik RouterOS, Ubiquiti UniFi, Multi-WAN Failover, VLAN segmentation.
+- **Cloud & Zero-Trust Security:** Amazon Web Services (AWS VPC, EC2, Security Groups), WireGuard Split-Tunnel VPN, SSH Agent Forwarding, FinOps cost governance.
 - **Systems & Virtualization:** Proxmox VE, Windows Server Hyper-V, Linux (Ubuntu/Debian), Reverse Proxy & SSL integration.
 - **Endpoint & Remote Operations:** MeshCentral (LXC), NetSupport School, unattended remote administration, centralized lab proctoring.
 - **Surveillance & IoT/Biometrics:** Dahua WizSense Ecosystem (98+ channels, SmartPSS Lite), Solution X100-C Biometric Hardware integration.
@@ -25,6 +26,7 @@ This repository documents production-grade implementations, troubleshooting repo
 | Document | Focus Area | Key Highlights |
 | :--- | :--- | :--- |
 | [Enterprise Campus Network Infrastructure](https://github.com/epawana/campus-it-operations/blob/main/docs/enterprise_campus_network_infrastructure_case_study.md) | Network Engineering | WAN configuration, multi-ISP balancing/failover, and campus-wide routing. |
+| [AWS Zero-Trust VPC & Split-Tunnel WireGuard VPN](https://github.com/epawana/campus-it-operations/blob/main/docs/aws_zero_trust_vpc_split_tunnel_vpn_architecture.md) | Cloud & Network Security | Public/private VPC subnet isolation, Security Group chaining, SSH Agent Forwarding (`ssh -A`), and split-tunnel WireGuard VPN (`UDP 51820`). |
 | [Cross-Platform OpenVPN Legacy Cipher & Split Tunneling](https://github.com/epawana/campus-it-operations/blob/main/docs/openvpn_legacy_cipher_split_tunneling_case_study.md) | Network Security & Linux | Resolving OpenSSL 3.0 SHA1/CBC handshake resets from RouterOS v6 servers and configuring client-side split tunneling. |
 | [Proxmox VE Implementation Guide](https://github.com/epawana/campus-it-operations/blob/main/docs/proxmox_ve_implementation_guide.md) | Virtualization Engineering | Hypervisor deployment, physical disk passthrough for Windows 11, and VirtIO hardware paravirtualization. |
 | [Hyper-V Virtualization & Workload Consolidation](https://github.com/epawana/campus-it-operations/blob/main/docs/hyper_v_server_virtualization_guide.md) | Virtualization & Systems | Hyper-V role configuration, virtual switch (vSwitch) isolation, Generation 2 UEFI provisioning, and VHDX disk optimization. |
